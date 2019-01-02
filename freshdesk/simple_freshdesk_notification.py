@@ -6,9 +6,9 @@ import json
 
 import ctypes
 
-api_key = "3hiZHXLYmGJFTBa3mtP3"
+api_key = ""
 domain = "radymo"
-password = "marakabes13"
+password = ""
 
 r = requests.get("https://"+ domain +".freshdesk.com/api/v2/tickets", 
 	auth = (api_key, password))
