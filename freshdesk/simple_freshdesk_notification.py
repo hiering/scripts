@@ -16,6 +16,6 @@ r = requests.get("https://"+ domain +".freshdesk.com/api/v2/tickets",
 response = json.loads(r.content)
 
 for i in response:
-	if i["responder_id"] == 27000113598:
+	if i["responder_id"] == None:
 		pass
 		# notification
